@@ -1,5 +1,5 @@
 .idea
 __pycache__
 venv
-test.py
 config.py
+test.py
